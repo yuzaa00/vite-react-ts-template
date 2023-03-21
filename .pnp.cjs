@@ -28,9 +28,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@vitejs/plugin-react", "virtual:8a43ad4152e7f7fecc59fb9fe20af95f3b8d6d1512bac00954eeba6938a5d46f6364c1720ff7549dbb9b89a26a78f2d7d329bb2c3b0179b4a3e5e0e740cfc972#npm:3.1.0"],\
+            ["prettier", "npm:2.8.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:8a43ad4152e7f7fecc59fb9fe20af95f3b8d6d1512bac00954eeba6938a5d46f6364c1720ff7549dbb9b89a26a78f2d7d329bb2c3b0179b4a3e5e0e740cfc972#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
@@ -662,6 +664,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-ad87447820.zip/node_modules/@tootallnate/once/",\
           "packageDependencies": [\
             ["@tootallnate/once", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/prettier", [\
+        ["npm:2.7.2", {\
+          "packageLocation": "./.yarn/cache/@types-prettier-npm-2.7.2-6b2e2f518f-b47d76a525.zip/node_modules/@types/prettier/",\
+          "packageDependencies": [\
+            ["@types/prettier", "npm:2.7.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1752,6 +1763,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.8.5", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.5-3f60833fcb-b7f8d30e14.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.8.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["promise-inflight", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/promise-inflight-npm-1.0.1-5bb925afac-2274948309.zip/node_modules/promise-inflight/",\
@@ -2182,9 +2202,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["vite-react-ts-template", "workspace:."],\
+            ["@types/prettier", "npm:2.7.2"],\
             ["@types/react", "npm:18.0.28"],\
             ["@types/react-dom", "npm:18.0.11"],\
             ["@vitejs/plugin-react", "virtual:8a43ad4152e7f7fecc59fb9fe20af95f3b8d6d1512bac00954eeba6938a5d46f6364c1720ff7549dbb9b89a26a78f2d7d329bb2c3b0179b4a3e5e0e740cfc972#npm:3.1.0"],\
+            ["prettier", "npm:2.8.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:8a43ad4152e7f7fecc59fb9fe20af95f3b8d6d1512bac00954eeba6938a5d46f6364c1720ff7549dbb9b89a26a78f2d7d329bb2c3b0179b4a3e5e0e740cfc972#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
